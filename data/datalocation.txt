@@ -1,1 +1,1 @@
-./data/testdata.csv
+testdata.csv
