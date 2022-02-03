@@ -29,9 +29,6 @@ logit=LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=Tru
 logit.fit(X,y)
                     
 
-
-
-
 ############Pushing to Production###################
 model_filename=str(Path(__file__).parent.parent / 'model/deployedmodelname.txt')
 with open(model_filename) as f:
